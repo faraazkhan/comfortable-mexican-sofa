@@ -14,6 +14,8 @@ class ComfortableMexicanSofa::Configuration
   # When arriving at /cms-admin you may chose to redirect to arbirtary path,
   # for example '/cms-admin/users'
   attr_accessor :admin_route_redirect
+  # Just to make it work with comfy blog
+  attr_accessor :admin_route_prefix
 
   # Upload settings
   attr_accessor :upload_file_options
